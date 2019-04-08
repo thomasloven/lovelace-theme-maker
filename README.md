@@ -18,5 +18,13 @@ The recommended type of this plugin is: `js`
 ```yaml
 type: theme-maker
 ```
+
+Example:
+
+![theme-maker](https://user-images.githubusercontent.com/1299821/55755442-48b13500-5a4f-11e9-9c26-b1e0b8b88f85.png)
+
+Add themeing css variables to get a live preview.
+Push "Import/Export" to get the yaml for your theme or paste an existing theme to start from.
+
 ---
 <a href="https://www.buymeacoffee.com/uqD6KHCdJ" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
