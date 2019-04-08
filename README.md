@@ -16,7 +16,7 @@ The recommended type of this plugin is: `js`
 # Usage instructions
 
 ```yaml
-type: theme-maker
+type: custom:theme-maker
 ```
 
 Example:
