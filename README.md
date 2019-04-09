@@ -26,5 +26,9 @@ Example:
 Add themeing css variables to get a live preview.
 Push "Import/Export" to get the yaml for your theme or paste an existing theme to start from.
 
+# Reference
+
+The [lovelace-css-values](https://github.com/chipriley/lovelace-css-values/) repository (by @chipriley) is available to help us find potential theme variables.
+
 ---
 <a href="https://www.buymeacoffee.com/uqD6KHCdJ" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
