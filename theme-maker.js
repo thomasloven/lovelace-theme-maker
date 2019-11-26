@@ -15,7 +15,8 @@ class ThemeMaker extends cardTools.LitElement {
   static get styles() {
     return cardTools.LitCSS`
     ha-card {
-      padding: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
     }
     .side-by-side {
       display: flex;
@@ -150,7 +151,9 @@ class ThemeMaker extends cardTools.LitElement {
     `;
     card.querySelector("mwc-button").onclick = () => {this.importTheme(card.querySelector("textarea").value); cardTools.closePopUp();};
     card.querySelector("textarea").value = this.exportTheme();
-    cardTools.popUp("Theme", card, true);
+    const popup = cardTools.popUp("Theme", {type: "markdown", content: " "}, true);
+    const oldcard = popup.shadowRoot.querySelector("card-maker");
+    oldcard.parentNode.replaceChild(card, oldcard);
   }
 
 }
