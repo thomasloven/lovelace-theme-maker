@@ -21,7 +21,8 @@ type: custom:theme-maker
 
 Example:
 
-![theme-maker](https://user-images.githubusercontent.com/1299821/55755442-48b13500-5a4f-11e9-9c26-b1e0b8b88f85.png)
+![image](https://user-images.githubusercontent.com/85389871/170828320-c6c5a0ab-84e1-43ea-a829-ad4d2505cae0.png)
+
 
 Add themeing css variables to get a live preview.
 Push "Import/Export" to get the yaml for your theme or paste an existing theme to start from.
